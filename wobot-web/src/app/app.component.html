@@ -1,0 +1,30 @@
+
+<div class = "flex flex-col">
+    <div class = "flex flex-row space-x-12 mt-[70px] ml-[650px]">
+        <h1 class="text-green-400 font-mono text-[32px]">Pizza Deep Learning Model</h1>
+    </div>
+    <!-- <div class = "flex flex-row space-x-1 mt-[60px] ml-[500px]">
+        <a href="" class='text-green-400 hover:bg-green-400 hover:text-white  border-2 rounded-lg px-80 py-1 border-green-400 font-mono text-[24px]'>Execute Model</a>
+    </div> -->
+    <div class="w-[1478px] mx-auto h-[650px] bg-green-100 rounded-[86px] z[-1] mt-[40px]">
+      <form class=' flex flex-row mt-[60px] space-x-3 ml-[550px] text-black font-mono' action = "http://localhost:5000/two" method="post" encType='multipart/form-data' id="form">
+        <div class="flex flex-col space-y-6">
+
+              <div class='flex flex-col'>
+                  <label htmlFor="pizza_data" class='text-black font-mono border-2 ml-[40px] px-35 border-green-300 rounded-lg items-center'> Import Data</label>
+                  <input class="form-control mt-[10px]" type="file" id ="pizza_data" name="pizza_data"/>
+              </div>
+              
+       
+              <input class='text-green-300 hover:bg-green-300 hover:text-white  border-2 rounded-lg px-36 py-1 border-green-300 font-mono text-[24px]' type="submit" value="Execute Model" />
+        </div>
+      
+      </form>
+
+    </div>
+</div> 
+
+
+
+
+
